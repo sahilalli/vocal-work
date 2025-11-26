@@ -1,7 +1,9 @@
 import { GoogleGenAI } from "@google/genai";
 
+const apikey = process.env.VITE_API_KEY
+
 // Initialize Gemini
-const ai = new GoogleGenAI({ apiKey: process.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: apikey });
 
 export const generateOfferLetter = async (candidateName: string, jobRole: string): Promise<string> => {
   try {
