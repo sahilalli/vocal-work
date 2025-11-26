@@ -1,0 +1,7 @@
+{
+  "name": "VocalWork Agency",
+  "description": "A platform for audio voice-over tasks and workforce management.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
